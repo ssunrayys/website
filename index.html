@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Wigs</title>
+</head>
+<body>
+<header class="header open">
+	<div class="header__container">
+		<div class="header__logo">
+			<img class="header__logo-img" src="images/logo.svg" alt="Logo"/>
+		</div>
+		<form class="header__search-form" action="/search" method="GET" id="search-form">
+			<div class="header__search-container">
+				<button class="header__search-button" type="submit">
+					<img src="images/search.svg" alt="Search"/>
+				</button>
+				<input class="header__search-input" type="text" name="query" placeholder="Search store" id="search-input">
+			</div>
+		</form>
+		<nav class="header__nav">
+			<ul class="header__menu">
+				<li class="header__menu-item">
+					<a class="header__menu-link" href="#">products</a>
+				</li>
+				<li class="header__menu-item">
+					<a class="header__menu-link" href="#">story</a>
+				</li>
+				<li class="header__menu-item">
+					<a class="header__menu-link" href="#">manufacturing</a>
+				</li>
+				<li class="header__menu-item">
+					<a class="header__menu-link" href="#">packaging</a>
+				</li>
+				<li class="header__menu-item">
+					<a class="header__menu-link-img header__menu-link-basket" href="#">
+						<img src="images/basket.svg" alt="Basket"/>
+					</a>
+				</li>
+				<li class="header__menu-item">
+					<a class="header__menu-link-img" href="#">
+						<img src="images/person.svg" alt="Account"/>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="header__burger-btn" id="burger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+</header>
+<main class="main">
+	<section class="product-list">
+		<h2 class="product-list__title">Explore</h2>
+		<ul class="product-list__items">
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/new_in.svg"/>New In</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/clothing.svg"/>Clothing</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/shoes.svg"/>Shoes</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/accessories.svg"/>Accessories</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/activewear.svg"/>Activewear</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/gifts.svg"/>Gifts & Living</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/inspiration.svg"/>Inspiration</a>
+			</li>
+			<li class="product-list__item">
+				<a class="product-list__item-link" href="#">
+					<img src="images/help.svg"/>Help Center</a>
+			</li>
+		</ul>
+<!--		<div class=" product-list__help">-->
+<!--			<a class="product-list__help-item" href="#">-->
+<!--				<img src="images/help.svg"/>Help Center-->
+<!--			</a>-->
+<!--		</div>-->
+	</section>
+
+	<section class="product-photo">
+		<div class="product-photo__container-horizontal">
+			<div class="product-photo__container-horizontal-img img-1">
+				<a class="product-photo__link" href="#"></a>
+			</div>
+			<div class="product-photo__container-horizontal-img img-2">
+				<a class="product-photo__link" href="#"></a>
+			</div>
+		</div>
+		<div class="product-photo__container-vertical">
+			<div class="product-photo__container-vertical-img img-3">
+				<a class="product-photo__link" href="#">
+					<img class="product-photo__link-like like" src="images/like.svg"/>
+				</a>
+			</div>
+			<div class="product-photo__container-vertical-img img-4">
+				<a class="product-photo__link" href="#">
+					<img class="product-photo__link-like like" src="images/like.svg"/>
+				</a>
+			</div>
+		</div>
+		<div class="product-photo__container-vertical">
+			<div class="product-photo__container-vertical-img img-5">
+				<a class="product-photo__link" href="#">
+					<img class="product-photo__link-like like" src="images/like.svg"/>
+				</a>
+			</div>
+			<div class="product-photo__container-vertical-img img-6">
+				<a class="product-photo__link" href="#">
+					<img class="product-photo__link-like like" src="images/like.svg"/>
+				</a>
+			</div>
+		</div>
+		<div class="product-photo__container-horizontal">
+			<div class="product-photo__container-horizontal-img img-7">
+				<a class="product-photo__link" href="#"></a>
+			</div>
+			<div class="product-photo__container-horizontal-img img-8">
+				<a class="product-photo__link" href="#"></a>
+			</div>
+		</div>
+	</section>
+</main>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

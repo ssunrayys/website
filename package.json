@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-scss": "sass styles.scss styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssunrayys/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssunrayys/website/issues"
+  },
+  "homepage": "https://github.com/ssunrayys/website#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

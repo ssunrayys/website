@@ -1,0 +1,18 @@
+body {
+  background-color: $primary-color;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: 'Circular Std', sans-serif;
+  color: $text-color;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  //display: flex;
+  margin: 24px 52px 60px 60px;
+}
